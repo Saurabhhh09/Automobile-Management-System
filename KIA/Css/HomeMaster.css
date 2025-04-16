@@ -1,0 +1,57 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav #navbarNav #Links > li {
+    padding: 20px;
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+nav #navbarNav #Links li a {
+    color: white;
+    font-size: 1.0rem;
+}
+path{
+    fill:#000;
+}
+
+nav #navbarNav #Links li:hover {
+    border-bottom: 1px solid black;
+}
+
+nav:hover {
+    background-color: #fff;
+}
+
+/*    nav:hover nav #logo .svg-ci path {
+        fill: #000;
+    }*/
+
+    nav:hover #navbarNav #Links li a {
+        color: black;
+    }
+
+#page{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#footer {
+    background-color: #05141f;
+}
+
+    #footer ul {
+        list-style-type: none;
+    }

@@ -1,0 +1,31 @@
+﻿#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #05141f;
+}
+
+    #page1 .carousel-item img {
+        width: 100%;
+        height: 100vh;
+    }
+
+#page2 #right .dark {
+    background-color: #fff;
+}
+
+#page2 #right .light {
+    background-color: #05141f;
+}
+
+#page3 #about {
+    width: 70%;
+    margin-top: 3rem;
+}
+
+#page4 {
+    background-color: rgb(240, 230, 221);
+}
+
+#contactUs #leftContact {
+    background-color: #eff1f2;
+}
